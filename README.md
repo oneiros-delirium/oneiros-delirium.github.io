@@ -7,6 +7,7 @@ TODO: Convert the following to issues
 2. Change font style of website header to match the rest of the page
 3. Each article "box" extends as per content in them. Need to make them uniform.
 4. Remove numbering / configure slider of the landing page (& arrows)
+5. Add content to the "About Our Site" section in the footer
 
 
-Ongoing: Comment out unnecessary code
+Ongoing: Grim Reaper - Comment out unnecessary code
