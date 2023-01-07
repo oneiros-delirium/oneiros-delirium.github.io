@@ -5252,3 +5252,43 @@ body.search-is-visible {
         padding-top: var(--vspace-1);
     }
 }
+
+
+/* for masonry like layout for brieflives */
+// ff nightly or chrome with flags enabled
+// https://www.youtube.com/watch?v=Dz9BzY21Zks&list=PLQkVA6z3dFvbnBJetfYDAF3-cG_ubgdZR 
+// http://gridbyexample.com/
+// Rachel Andrew F.T.W
+
+body {
+    margin: 0;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 1px;
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
+    padding: 1px;
+   
+}
+
+.grid-item {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    border-radius: 10px;
+}
+
+.span-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}
